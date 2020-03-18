@@ -1,0 +1,10 @@
+C:\Users\peter\source\repos\fritid\fritid\bin\Debug\fritid.exe.config
+C:\Users\peter\source\repos\fritid\fritid\bin\Debug\fritid.exe
+C:\Users\peter\source\repos\fritid\fritid\bin\Debug\fritid.pdb
+C:\Users\peter\source\repos\fritid\fritid\obj\Debug\fritid.csprojAssemblyReference.cache
+C:\Users\peter\source\repos\fritid\fritid\obj\Debug\fritid.Form1.resources
+C:\Users\peter\source\repos\fritid\fritid\obj\Debug\fritid.Properties.Resources.resources
+C:\Users\peter\source\repos\fritid\fritid\obj\Debug\fritid.csproj.GenerateResource.cache
+C:\Users\peter\source\repos\fritid\fritid\obj\Debug\fritid.csproj.CoreCompileInputs.cache
+C:\Users\peter\source\repos\fritid\fritid\obj\Debug\fritid.exe
+C:\Users\peter\source\repos\fritid\fritid\obj\Debug\fritid.pdb
