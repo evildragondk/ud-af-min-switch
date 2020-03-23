@@ -44,24 +44,24 @@
             // 
             // dit_tal
             // 
-            this.dit_tal.AutoSize = true;
-            this.dit_tal.Location = new System.Drawing.Point(145, 117);
+            this.dit_tal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dit_tal.Location = new System.Drawing.Point(104, 88);
             this.dit_tal.Name = "dit_tal";
-            this.dit_tal.Size = new System.Drawing.Size(191, 13);
+            this.dit_tal.Size = new System.Drawing.Size(100, 42);
             this.dit_tal.TabIndex = 0;
-            this.dit_tal.Text = "har skal det tal du tro der er det riget tal";
             // 
             // hvad_er_tal
             // 
-            this.hvad_er_tal.AutoSize = true;
-            this.hvad_er_tal.Location = new System.Drawing.Point(495, 117);
+            this.hvad_er_tal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hvad_er_tal.Location = new System.Drawing.Point(566, 88);
             this.hvad_er_tal.Name = "hvad_er_tal";
-            this.hvad_er_tal.Size = new System.Drawing.Size(326, 13);
+            this.hvad_er_tal.Size = new System.Drawing.Size(100, 42);
             this.hvad_er_tal.TabIndex = 1;
-            this.hvad_er_tal.Text = "har vil den fortælle om det tal du har vlat er forhjørt forlaver eller riget";
+            this.hvad_er_tal.Click += new System.EventHandler(this.hvad_er_tal_Click);
             // 
             // en
             // 
+            this.en.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.en.Location = new System.Drawing.Point(12, 179);
             this.en.Name = "en";
             this.en.Size = new System.Drawing.Size(75, 75);
@@ -72,6 +72,7 @@
             // 
             // to
             // 
+            this.to.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.to.Location = new System.Drawing.Point(93, 179);
             this.to.Name = "to";
             this.to.Size = new System.Drawing.Size(75, 75);
@@ -82,6 +83,7 @@
             // 
             // tre
             // 
+            this.tre.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tre.Location = new System.Drawing.Point(174, 179);
             this.tre.Name = "tre";
             this.tre.Size = new System.Drawing.Size(75, 75);
@@ -92,6 +94,7 @@
             // 
             // fire
             // 
+            this.fire.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fire.Location = new System.Drawing.Point(255, 179);
             this.fire.Name = "fire";
             this.fire.Size = new System.Drawing.Size(75, 75);
@@ -102,6 +105,7 @@
             // 
             // fem
             // 
+            this.fem.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fem.Location = new System.Drawing.Point(336, 179);
             this.fem.Name = "fem";
             this.fem.Size = new System.Drawing.Size(75, 75);
@@ -112,6 +116,7 @@
             // 
             // seks
             // 
+            this.seks.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.seks.Location = new System.Drawing.Point(417, 179);
             this.seks.Name = "seks";
             this.seks.Size = new System.Drawing.Size(75, 75);
@@ -122,6 +127,7 @@
             // 
             // sye
             // 
+            this.sye.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sye.Location = new System.Drawing.Point(498, 179);
             this.sye.Name = "sye";
             this.sye.Size = new System.Drawing.Size(75, 75);
@@ -132,6 +138,7 @@
             // 
             // otto
             // 
+            this.otto.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.otto.Location = new System.Drawing.Point(579, 179);
             this.otto.Name = "otto";
             this.otto.Size = new System.Drawing.Size(75, 75);
@@ -142,6 +149,7 @@
             // 
             // ni
             // 
+            this.ni.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ni.Location = new System.Drawing.Point(660, 179);
             this.ni.Name = "ni";
             this.ni.Size = new System.Drawing.Size(75, 75);
@@ -152,6 +160,7 @@
             // 
             // ti
             // 
+            this.ti.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ti.Location = new System.Drawing.Point(741, 179);
             this.ti.Name = "ti";
             this.ti.Size = new System.Drawing.Size(75, 75);
@@ -180,7 +189,6 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

@@ -76,5 +76,10 @@ namespace _1_10
             Button button = (Button)sender;
             dit_tal.Text = dit_tal.Text + button.Text;
         }
+
+        private void hvad_er_tal_Click(object sender, EventArgs e)
+        {
+            var random = new Random();
+        }
     }
 }
