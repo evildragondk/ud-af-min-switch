@@ -12,6 +12,10 @@ namespace _1_10
 {
     public partial class Form1 : Form
     {
+        string forhjøt = "forhjøt";
+        string forlat = "forlat";
+        string riget = "riget";
+
         public Form1()
         {
             InitializeComponent();
@@ -80,6 +84,7 @@ namespace _1_10
         private void hvad_er_tal_Click(object sender, EventArgs e)
         {
             var random = new Random();
+            int randomnummer = 0;
         }
     }
 }
