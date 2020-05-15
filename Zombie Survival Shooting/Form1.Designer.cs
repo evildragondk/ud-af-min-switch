@@ -1,4 +1,4 @@
-﻿namespace Zombie_Survival_Shooting
+﻿namespace zombieShooter
 {
     partial class Form1
     {
