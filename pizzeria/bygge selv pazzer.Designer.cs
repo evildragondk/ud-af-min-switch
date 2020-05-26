@@ -71,7 +71,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.nomal = new System.Windows.Forms.Label();
             this.lille = new System.Windows.Forms.Label();
             this.stormonsterBox = new System.Windows.Forms.CheckBox();
             this.storpepsiBox = new System.Windows.Forms.CheckBox();
@@ -159,6 +159,7 @@
             this.OstBox.Name = "OstBox";
             this.OstBox.Size = new System.Drawing.Size(15, 14);
             this.OstBox.TabIndex = 7;
+            this.OstBox.Tag = "fule";
             this.OstBox.UseVisualStyleBackColor = true;
             this.OstBox.CheckedChanged += new System.EventHandler(this.OstBox_CheckedChanged);
             // 
@@ -169,6 +170,7 @@
             this.SkinBox.Name = "SkinBox";
             this.SkinBox.Size = new System.Drawing.Size(15, 14);
             this.SkinBox.TabIndex = 8;
+            this.SkinBox.Tag = "fule";
             this.SkinBox.UseVisualStyleBackColor = true;
             this.SkinBox.CheckedChanged += new System.EventHandler(this.SkinBox_CheckedChanged);
             // 
@@ -179,6 +181,7 @@
             this.PepperoniBox.Name = "PepperoniBox";
             this.PepperoniBox.Size = new System.Drawing.Size(15, 14);
             this.PepperoniBox.TabIndex = 9;
+            this.PepperoniBox.Tag = "fule";
             this.PepperoniBox.UseVisualStyleBackColor = true;
             this.PepperoniBox.CheckedChanged += new System.EventHandler(this.PepperoniBox_CheckedChanged);
             // 
@@ -189,6 +192,7 @@
             this.KebabBox.Name = "KebabBox";
             this.KebabBox.Size = new System.Drawing.Size(15, 14);
             this.KebabBox.TabIndex = 10;
+            this.KebabBox.Tag = "fule";
             this.KebabBox.UseVisualStyleBackColor = true;
             this.KebabBox.CheckedChanged += new System.EventHandler(this.KebabBox_CheckedChanged);
             // 
@@ -199,6 +203,7 @@
             this.fritesBox.Name = "fritesBox";
             this.fritesBox.Size = new System.Drawing.Size(15, 14);
             this.fritesBox.TabIndex = 11;
+            this.fritesBox.Tag = "fule";
             this.fritesBox.UseVisualStyleBackColor = true;
             this.fritesBox.CheckedChanged += new System.EventHandler(this.fritesBox_CheckedChanged);
             // 
@@ -209,6 +214,7 @@
             this.dressingBox.Name = "dressingBox";
             this.dressingBox.Size = new System.Drawing.Size(15, 14);
             this.dressingBox.TabIndex = 12;
+            this.dressingBox.Tag = "fule";
             this.dressingBox.UseVisualStyleBackColor = true;
             this.dressingBox.CheckedChanged += new System.EventHandler(this.dressingBox_CheckedChanged);
             // 
@@ -219,6 +225,7 @@
             this.AnanasBox.Name = "AnanasBox";
             this.AnanasBox.Size = new System.Drawing.Size(15, 14);
             this.AnanasBox.TabIndex = 13;
+            this.AnanasBox.Tag = "fule";
             this.AnanasBox.UseVisualStyleBackColor = true;
             this.AnanasBox.CheckedChanged += new System.EventHandler(this.AnanasBox_CheckedChanged);
             // 
@@ -229,6 +236,7 @@
             this.LøgBox.Name = "LøgBox";
             this.LøgBox.Size = new System.Drawing.Size(15, 14);
             this.LøgBox.TabIndex = 14;
+            this.LøgBox.Tag = "fule";
             this.LøgBox.UseVisualStyleBackColor = true;
             this.LøgBox.CheckedChanged += new System.EventHandler(this.LøgBox_CheckedChanged);
             // 
@@ -239,6 +247,7 @@
             this.oksekødBox.Name = "oksekødBox";
             this.oksekødBox.Size = new System.Drawing.Size(15, 14);
             this.oksekødBox.TabIndex = 15;
+            this.oksekødBox.Tag = "fule";
             this.oksekødBox.UseVisualStyleBackColor = true;
             this.oksekødBox.CheckedChanged += new System.EventHandler(this.oksekødBox_CheckedChanged);
             // 
@@ -249,6 +258,7 @@
             this.ChampignonBox.Name = "ChampignonBox";
             this.ChampignonBox.Size = new System.Drawing.Size(15, 14);
             this.ChampignonBox.TabIndex = 16;
+            this.ChampignonBox.Tag = "fule";
             this.ChampignonBox.UseVisualStyleBackColor = true;
             this.ChampignonBox.CheckedChanged += new System.EventHandler(this.ChampignonBox_CheckedChanged);
             // 
@@ -424,6 +434,7 @@
             this.ChiliBox.Name = "ChiliBox";
             this.ChiliBox.Size = new System.Drawing.Size(15, 14);
             this.ChiliBox.TabIndex = 31;
+            this.ChiliBox.Tag = "fule";
             this.ChiliBox.UseVisualStyleBackColor = true;
             this.ChiliBox.CheckedChanged += new System.EventHandler(this.ChiliBox_CheckedChanged);
             // 
@@ -435,6 +446,7 @@
             this.penge.Name = "penge";
             this.penge.Size = new System.Drawing.Size(258, 23);
             this.penge.TabIndex = 33;
+            this.penge.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label13
             // 
@@ -546,16 +558,16 @@
             this.label4.TabIndex = 99;
             this.label4.Text = "stor";
             // 
-            // label2
+            // nomal
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(904, 88);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 16);
-            this.label2.TabIndex = 98;
-            this.label2.Text = "label2";
+            this.nomal.AutoSize = true;
+            this.nomal.BackColor = System.Drawing.Color.Transparent;
+            this.nomal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nomal.Location = new System.Drawing.Point(904, 88);
+            this.nomal.Name = "nomal";
+            this.nomal.Size = new System.Drawing.Size(55, 16);
+            this.nomal.TabIndex = 98;
+            this.nomal.Text = "normal";
             // 
             // lille
             // 
@@ -721,7 +733,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.nomal);
             this.Controls.Add(this.lille);
             this.Controls.Add(this.stormonsterBox);
             this.Controls.Add(this.storpepsiBox);
@@ -784,16 +796,6 @@
         private System.Windows.Forms.CheckBox dejBox1;
         private System.Windows.Forms.CheckBox dejBox2;
         private System.Windows.Forms.CheckBox dejBox3;
-        private System.Windows.Forms.CheckBox OstBox;
-        private System.Windows.Forms.CheckBox SkinBox;
-        private System.Windows.Forms.CheckBox PepperoniBox;
-        private System.Windows.Forms.CheckBox KebabBox;
-        private System.Windows.Forms.CheckBox fritesBox;
-        private System.Windows.Forms.CheckBox dressingBox;
-        private System.Windows.Forms.CheckBox AnanasBox;
-        private System.Windows.Forms.CheckBox LøgBox;
-        private System.Windows.Forms.CheckBox oksekødBox;
-        private System.Windows.Forms.CheckBox ChampignonBox;
         private System.Windows.Forms.Button betal;
         private System.Windows.Forms.Label Ost;
         private System.Windows.Forms.Label Skin;
@@ -809,7 +811,6 @@
         private System.Windows.Forms.Label America;
         private System.Windows.Forms.Label famlille;
         private System.Windows.Forms.Label Chili;
-        private System.Windows.Forms.CheckBox ChiliBox;
         private System.Windows.Forms.Label penge;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
@@ -821,7 +822,7 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label nomal;
         private System.Windows.Forms.Label lille;
         private System.Windows.Forms.CheckBox stormonsterBox;
         private System.Windows.Forms.CheckBox storpepsiBox;
@@ -836,5 +837,16 @@
         private System.Windows.Forms.CheckBox lillemonsterBox;
         private System.Windows.Forms.CheckBox lillepepsiBox;
         private System.Windows.Forms.CheckBox lilleløBox;
+        public System.Windows.Forms.CheckBox OstBox;
+        public System.Windows.Forms.CheckBox SkinBox;
+        public System.Windows.Forms.CheckBox PepperoniBox;
+        public System.Windows.Forms.CheckBox KebabBox;
+        public System.Windows.Forms.CheckBox fritesBox;
+        public System.Windows.Forms.CheckBox dressingBox;
+        public System.Windows.Forms.CheckBox AnanasBox;
+        public System.Windows.Forms.CheckBox LøgBox;
+        public System.Windows.Forms.CheckBox oksekødBox;
+        public System.Windows.Forms.CheckBox ChampignonBox;
+        public System.Windows.Forms.CheckBox ChiliBox;
     }
 }

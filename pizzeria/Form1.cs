@@ -12,7 +12,7 @@ namespace pizzeria
 {
     public partial class Form1 : Form
     {
-        int prise = 0;
+        priser prise = new priser();
 
         public Form1()
         {
@@ -27,85 +27,88 @@ namespace pizzeria
         private void betale_Click(object sender, EventArgs e)
         {
             penge.Text = "Tak for dit købe";
-        }
-
-        private void NormalpirseBox1_CheckedChanged(object sender, EventArgs e)
-        {
-           penge.Text = (prise += 70).ToString()+ "kr";
-        }
-        private void storpirseBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            penge.Text = (prise += 100).ToString() + "kr";
-        }
-
-        private void NormalpirseBox2_CheckedChanged(object sender, EventArgs e)
-        {
-            penge.Text = (prise += 70).ToString() + "kr";
-        }
-        private void storpirseBox2_CheckedChanged(object sender, EventArgs e)
-        {
-            penge.Text = (prise += 100).ToString() + "kr";
-        }
-
-        private void NormalpirseBox3_CheckedChanged(object sender, EventArgs e)
-        {
-            penge.Text = (prise += 70).ToString() + "kr";
-        }
-
-        private void storpirseBox3_CheckedChanged(object sender, EventArgs e)
-        {
-            penge.Text = (prise += 100).ToString() + "kr";
-        }
+        }   
 
         private void Click_her_Click(object sender, EventArgs e)
         {
-            bygge_selv_pazzer openForm = new bygge_selv_pazzer();
-                 openForm.Show();
+            //bygge_selv_pazzer openForm = new bygge_selv_pazzer();
+            //     openForm.Show();
+            //this.Hide();
         }
 
         private void lillepepsiBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise += 40).ToString() + "kr";
+            penge.Text = (prise.prise += 40).ToString() + "kr";
         }
 
         private void lillemonsterBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise += 30).ToString() + "kr";
+            penge.Text = (prise.prise += 30).ToString() + "kr";
         }
 
         private void lilleløBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise += 35).ToString() + "kr";
+            penge.Text = (prise.prise += 35).ToString() + "kr";
         }
 
         private void NormalpepsiBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise += 55).ToString() + "kr";
+            penge.Text = (prise.prise += 55).ToString() + "kr";
         }
 
         private void NormalmonsterBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise += 45).ToString() + "kr";
+            penge.Text = (prise.prise += 45).ToString() + "kr";
         }
 
         private void NormalløBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise += 50).ToString() + "kr";
+            penge.Text = (prise.prise += 50).ToString() + "kr";
         }
 
         private void storpepsiBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise += 70).ToString() + "kr";
+            penge.Text = (prise.prise += 70).ToString() + "kr";
         }
 
         private void stormonsterBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise += 60).ToString() + "kr";
+            penge.Text = (prise.prise += 60).ToString() + "kr";
         }
 
         private void storløBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise += 65).ToString() + "kr";
+            penge.Text = (prise.prise += 65).ToString() + "kr";
+        }
+
+        private void NormalpirseBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("Normal", penge);
+        }
+
+        private void NormalpirseBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("Normal", penge);
+        }
+
+        private void NormalpirseBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("Normal", penge);
+        }
+
+        private void storpirseBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("stor", penge);
+        }
+
+        private void storpirseBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("stor", penge);
+        }
+
+        private void storpirseBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("stor", penge);
         }
     }
 }

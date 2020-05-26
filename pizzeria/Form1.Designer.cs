@@ -183,6 +183,7 @@
             this.NormalpirseBox1.Name = "NormalpirseBox1";
             this.NormalpirseBox1.Size = new System.Drawing.Size(15, 14);
             this.NormalpirseBox1.TabIndex = 8;
+            this.NormalpirseBox1.Tag = "Normal";
             this.NormalpirseBox1.UseVisualStyleBackColor = true;
             this.NormalpirseBox1.CheckedChanged += new System.EventHandler(this.NormalpirseBox1_CheckedChanged);
             // 
@@ -193,6 +194,7 @@
             this.NormalpirseBox2.Name = "NormalpirseBox2";
             this.NormalpirseBox2.Size = new System.Drawing.Size(15, 14);
             this.NormalpirseBox2.TabIndex = 9;
+            this.NormalpirseBox2.Tag = "Normal";
             this.NormalpirseBox2.UseVisualStyleBackColor = true;
             this.NormalpirseBox2.CheckedChanged += new System.EventHandler(this.NormalpirseBox2_CheckedChanged);
             // 
@@ -203,6 +205,7 @@
             this.NormalpirseBox3.Name = "NormalpirseBox3";
             this.NormalpirseBox3.Size = new System.Drawing.Size(15, 14);
             this.NormalpirseBox3.TabIndex = 10;
+            this.NormalpirseBox3.Tag = "Normal";
             this.NormalpirseBox3.UseVisualStyleBackColor = true;
             this.NormalpirseBox3.CheckedChanged += new System.EventHandler(this.NormalpirseBox3_CheckedChanged);
             // 
@@ -213,6 +216,7 @@
             this.storpirseBox3.Name = "storpirseBox3";
             this.storpirseBox3.Size = new System.Drawing.Size(15, 14);
             this.storpirseBox3.TabIndex = 13;
+            this.storpirseBox3.Tag = "stor";
             this.storpirseBox3.UseVisualStyleBackColor = true;
             this.storpirseBox3.CheckedChanged += new System.EventHandler(this.storpirseBox3_CheckedChanged);
             // 
@@ -223,6 +227,7 @@
             this.storpirseBox2.Name = "storpirseBox2";
             this.storpirseBox2.Size = new System.Drawing.Size(15, 14);
             this.storpirseBox2.TabIndex = 12;
+            this.storpirseBox2.Tag = "stor";
             this.storpirseBox2.UseVisualStyleBackColor = true;
             this.storpirseBox2.CheckedChanged += new System.EventHandler(this.storpirseBox2_CheckedChanged);
             // 
@@ -233,6 +238,7 @@
             this.storpirseBox1.Name = "storpirseBox1";
             this.storpirseBox1.Size = new System.Drawing.Size(15, 14);
             this.storpirseBox1.TabIndex = 11;
+            this.storpirseBox1.Tag = "stor";
             this.storpirseBox1.UseVisualStyleBackColor = true;
             this.storpirseBox1.CheckedChanged += new System.EventHandler(this.storpirseBox1_CheckedChanged);
             // 
@@ -728,19 +734,12 @@
         #endregion
 
         private System.Windows.Forms.Button betale;
-        private System.Windows.Forms.Label penge;
         private System.Windows.Forms.Label pazzer1;
         private System.Windows.Forms.Label pazzer2;
         private System.Windows.Forms.Label pazzer3;
         private System.Windows.Forms.Label føl1;
         private System.Windows.Forms.Label føl2;
         private System.Windows.Forms.Label føl3;
-        private System.Windows.Forms.CheckBox NormalpirseBox1;
-        private System.Windows.Forms.CheckBox NormalpirseBox2;
-        private System.Windows.Forms.CheckBox NormalpirseBox3;
-        private System.Windows.Forms.CheckBox storpirseBox3;
-        private System.Windows.Forms.CheckBox storpirseBox2;
-        private System.Windows.Forms.CheckBox storpirseBox1;
         private System.Windows.Forms.Label Normal1;
         private System.Windows.Forms.Label Normal2;
         private System.Windows.Forms.Label Normal3;
@@ -780,6 +779,13 @@
         private System.Windows.Forms.CheckBox lillemonsterBox;
         private System.Windows.Forms.CheckBox lillepepsiBox;
         private System.Windows.Forms.CheckBox lilleløBox;
+        public System.Windows.Forms.CheckBox NormalpirseBox1;
+        public System.Windows.Forms.CheckBox NormalpirseBox2;
+        public System.Windows.Forms.CheckBox NormalpirseBox3;
+        public System.Windows.Forms.CheckBox storpirseBox3;
+        public System.Windows.Forms.CheckBox storpirseBox2;
+        public System.Windows.Forms.CheckBox storpirseBox1;
+        public System.Windows.Forms.Label penge;
     }
 }
 
