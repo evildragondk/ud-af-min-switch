@@ -18,3 +18,14 @@ C:\Users\bruger\Downloads\ud-af-min-switch-master\ud-af-min-switch-master\pizzer
 C:\Users\bruger\Downloads\ud-af-min-switch-master\ud-af-min-switch-master\pizzeria\obj\Debug\pizzeria.csproj.CoreCompileInputs.cache
 C:\Users\bruger\Downloads\ud-af-min-switch-master\ud-af-min-switch-master\pizzeria\obj\Debug\pizzeria.exe
 C:\Users\bruger\Downloads\ud-af-min-switch-master\ud-af-min-switch-master\pizzeria\obj\Debug\pizzeria.pdb
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\bin\Debug\pizzeria.exe.config
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\bin\Debug\pizzeria.exe
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\bin\Debug\pizzeria.pdb
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\obj\Debug\pizzeria.csprojAssemblyReference.cache
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\obj\Debug\pizzeria.bygge_selv_pazzer.resources
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\obj\Debug\pizzeria.Form1.resources
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\obj\Debug\pizzeria.Properties.Resources.resources
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\obj\Debug\pizzeria.csproj.GenerateResource.cache
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\obj\Debug\pizzeria.csproj.CoreCompileInputs.cache
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\obj\Debug\pizzeria.exe
+C:\Users\bruger\Documents\GitHub\ud-af-min-switch\pizzeria\obj\Debug\pizzeria.pdb

@@ -145,5 +145,40 @@ namespace pizzeria
         {
             prise.FlerePenge("fule", penge);
         }
+
+        private void bygge_selv_pazzer_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            penge.Text = (prise.prise += 50).ToString() + "kr";
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            penge.Text = (prise.prise += 75).ToString() + "kr";
+        }
+
+        private void sovsbox1_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("sovs", penge);
+        }
+
+        private void sovsbox3_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("sovs", penge);
+        }
+
+        private void sovsbox2_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("sovs", penge);
+        }
+
+        private void sovsbox4_CheckedChanged(object sender, EventArgs e)
+        {
+            prise.FlerePenge("sovs", penge);
+        }
     }
 }

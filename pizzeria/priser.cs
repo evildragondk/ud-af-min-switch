@@ -10,6 +10,7 @@ namespace pizzeria
    public class priser
    {
        public int prise;
+        public static int penge1 { get; set; }
 
         public void FlerePenge(object Tag, Label penge )
         {
@@ -30,6 +31,23 @@ namespace pizzeria
                 prise = 100;
                 penge.Text = $"{prise} kr";
             }
+
+            if (Tag.ToString() == "sovs")
+            {
+                prise = 15;
+                penge.Text = $"{prise} kr";
+            }
+
+            if (penge1 < 0)
+            {
+                penge1 = 0;
+            }
+
+        }
+
+        public static void addpenge(int i)
+        {
+            penge1 += i;
         }
    }
 }

@@ -86,6 +86,19 @@
             this.lillemonsterBox = new System.Windows.Forms.CheckBox();
             this.lillepepsiBox = new System.Windows.Forms.CheckBox();
             this.lilleløBox = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.sovsbox4 = new System.Windows.Forms.CheckBox();
+            this.sovsbox3 = new System.Windows.Forms.CheckBox();
+            this.sovsbox2 = new System.Windows.Forms.CheckBox();
+            this.sovsbox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // Tilbare
@@ -107,9 +120,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.label1.Location = new System.Drawing.Point(82, 81);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 25);
+            this.label1.Size = new System.Drawing.Size(130, 25);
             this.label1.TabIndex = 1;
-            this.label1.Text = "dej";
+            this.label1.Text = "størrelse/dej";
             // 
             // fule
             // 
@@ -118,9 +131,9 @@
             this.fule.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fule.Location = new System.Drawing.Point(331, 81);
             this.fule.Name = "fule";
-            this.fule.Size = new System.Drawing.Size(303, 25);
+            this.fule.Size = new System.Drawing.Size(301, 25);
             this.fule.TabIndex = 2;
-            this.fule.Text = "fule (alt fule koster 7kr par stk)";
+            this.fule.Text = "fyld (alt fyld koster 7kr par stk)";
             // 
             // dejBox1
             // 
@@ -715,6 +728,147 @@
             this.lilleløBox.UseVisualStyleBackColor = true;
             this.lilleløBox.CheckedChanged += new System.EventHandler(this.lilleløBox_CheckedChanged);
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(78, 237);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(15, 14);
+            this.checkBox1.TabIndex = 109;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(78, 276);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(15, 14);
+            this.checkBox2.TabIndex = 110;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(104, 238);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 16);
+            this.label2.TabIndex = 111;
+            this.label2.Text = "stor 50kr";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(105, 277);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(153, 16);
+            this.label3.TabIndex = 112;
+            this.label3.Text = "America-famlille 75kr";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.Color.Transparent;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(772, 297);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(158, 24);
+            this.label14.TabIndex = 113;
+            this.label14.Text = "sovs 15kr pr sovs ";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(772, 339);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(96, 24);
+            this.label15.TabIndex = 114;
+            this.label15.Text = "pizza sovs";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(772, 377);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(92, 24);
+            this.label16.TabIndex = 115;
+            this.label16.Text = "brun sovs";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(772, 417);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(120, 24);
+            this.label17.TabIndex = 116;
+            this.label17.Text = "whiskey sovs";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(772, 453);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(84, 24);
+            this.label18.TabIndex = 117;
+            this.label18.Text = "kød sovs";
+            // 
+            // sovsbox4
+            // 
+            this.sovsbox4.AutoSize = true;
+            this.sovsbox4.Location = new System.Drawing.Point(995, 459);
+            this.sovsbox4.Name = "sovsbox4";
+            this.sovsbox4.Size = new System.Drawing.Size(15, 14);
+            this.sovsbox4.TabIndex = 121;
+            this.sovsbox4.Tag = "sovs";
+            this.sovsbox4.UseVisualStyleBackColor = true;
+            this.sovsbox4.CheckedChanged += new System.EventHandler(this.sovsbox4_CheckedChanged);
+            // 
+            // sovsbox3
+            // 
+            this.sovsbox3.AutoSize = true;
+            this.sovsbox3.Location = new System.Drawing.Point(995, 424);
+            this.sovsbox3.Name = "sovsbox3";
+            this.sovsbox3.Size = new System.Drawing.Size(15, 14);
+            this.sovsbox3.TabIndex = 120;
+            this.sovsbox3.Tag = "sovs";
+            this.sovsbox3.UseVisualStyleBackColor = true;
+            this.sovsbox3.CheckedChanged += new System.EventHandler(this.sovsbox3_CheckedChanged);
+            // 
+            // sovsbox2
+            // 
+            this.sovsbox2.AutoSize = true;
+            this.sovsbox2.Location = new System.Drawing.Point(995, 385);
+            this.sovsbox2.Name = "sovsbox2";
+            this.sovsbox2.Size = new System.Drawing.Size(15, 14);
+            this.sovsbox2.TabIndex = 119;
+            this.sovsbox2.Tag = "sovs";
+            this.sovsbox2.UseVisualStyleBackColor = true;
+            this.sovsbox2.CheckedChanged += new System.EventHandler(this.sovsbox2_CheckedChanged);
+            // 
+            // sovsbox1
+            // 
+            this.sovsbox1.AutoSize = true;
+            this.sovsbox1.Location = new System.Drawing.Point(995, 347);
+            this.sovsbox1.Name = "sovsbox1";
+            this.sovsbox1.Size = new System.Drawing.Size(15, 14);
+            this.sovsbox1.TabIndex = 118;
+            this.sovsbox1.Tag = "sovs";
+            this.sovsbox1.UseVisualStyleBackColor = true;
+            this.sovsbox1.CheckedChanged += new System.EventHandler(this.sovsbox1_CheckedChanged);
+            // 
             // bygge_selv_pazzer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -723,6 +877,19 @@
             this.BackgroundImage = global::pizzeria.Properties.Resources.pizza_fun_facts;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1058, 645);
+            this.Controls.Add(this.sovsbox4);
+            this.Controls.Add(this.sovsbox3);
+            this.Controls.Add(this.sovsbox2);
+            this.Controls.Add(this.sovsbox1);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.checkBox2);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
@@ -783,6 +950,7 @@
             this.Controls.Add(this.Tilbare);
             this.Name = "bygge_selv_pazzer";
             this.Text = "bygge_selv_pazzer";
+            this.Load += new System.EventHandler(this.bygge_selv_pazzer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -848,5 +1016,18 @@
         public System.Windows.Forms.CheckBox oksekødBox;
         public System.Windows.Forms.CheckBox ChampignonBox;
         public System.Windows.Forms.CheckBox ChiliBox;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.CheckBox sovsbox4;
+        private System.Windows.Forms.CheckBox sovsbox3;
+        private System.Windows.Forms.CheckBox sovsbox2;
+        private System.Windows.Forms.CheckBox sovsbox1;
     }
 }

@@ -21,7 +21,7 @@ namespace pizzeria
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void betale_Click(object sender, EventArgs e)
@@ -31,9 +31,9 @@ namespace pizzeria
 
         private void Click_her_Click(object sender, EventArgs e)
         {
-            //bygge_selv_pazzer openForm = new bygge_selv_pazzer();
-            //     openForm.Show();
-            //this.Hide();
+            bygge_selv_pazzer openForm = new bygge_selv_pazzer();
+            openForm.Show();
+            this.Hide();
         }
 
         private void lillepepsiBox_CheckedChanged(object sender, EventArgs e)
