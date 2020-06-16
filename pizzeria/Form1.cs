@@ -38,27 +38,62 @@ namespace pizzeria
 
         private void lillepepsiBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise.prise += 40).ToString() + "kr";
+            if (lillepepsiBox.Checked == true)
+            {
+               penge.Text = (prise.prise += 40).ToString() + "kr";
+            }
+            else if(lillepepsiBox.Checked == false)
+            {
+                penge.Text = (prise.prise -= 40).ToString() + "kr";
+            }
         }
 
         private void lillemonsterBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise.prise += 30).ToString() + "kr";
+            if (lillemonsterBox.Checked == true)
+            {
+                penge.Text = (prise.prise += 30).ToString() + "kr";
+            }
+            else if (lillemonsterBox.Checked == false)
+            {
+                penge.Text = (prise.prise -= 30).ToString() + "kr";
+            }
         }
 
         private void lilleløBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise.prise += 35).ToString() + "kr";
+            if (lilleløBox.Checked == true)
+            {
+                penge.Text = (prise.prise += 35).ToString() + "kr";
+            }
+            else if (lilleløBox.Checked == false)
+            {
+                penge.Text = (prise.prise -= 35).ToString() + "kr";
+            }
         }
 
         private void NormalpepsiBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise.prise += 55).ToString() + "kr";
+            if (NormalpepsiBox.Checked == true)
+            {
+                penge.Text = (prise.prise += 55).ToString() + "kr";
+            }
+            else if (NormalpepsiBox.Checked == false)
+            {
+                penge.Text = (prise.prise -= 55).ToString() + "kr";
+            }
         }
 
         private void NormalmonsterBox_CheckedChanged(object sender, EventArgs e)
         {
-            penge.Text = (prise.prise += 45).ToString() + "kr";
+            if (NormalmonsterBox.Checked == true)
+            {
+                penge.Text = (prise.prise += 45).ToString() + "kr";
+            }
+            else if (NormalmonsterBox.Checked == false)
+            {
+                penge.Text = (prise.prise -= 45).ToString() + "kr";
+            }
         }
 
         private void NormalløBox_CheckedChanged(object sender, EventArgs e)

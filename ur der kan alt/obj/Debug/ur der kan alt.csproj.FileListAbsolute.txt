@@ -1,0 +1,9 @@
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\bin\Debug\ur der kan alt.exe.config
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\bin\Debug\ur der kan alt.exe
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\bin\Debug\ur der kan alt.pdb
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur_der_kan_alt.Form1.resources
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur_der_kan_alt.Properties.Resources.resources
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur der kan alt.csproj.GenerateResource.cache
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur der kan alt.csproj.CoreCompileInputs.cache
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur der kan alt.exe
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur der kan alt.pdb
