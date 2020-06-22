@@ -7,3 +7,5 @@ C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur der kan 
 C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur der kan alt.csproj.CoreCompileInputs.cache
 C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur der kan alt.exe
 C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur der kan alt.pdb
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur der kan alt.csprojAssemblyReference.cache
+C:\Users\bruger\source\repos\ur der kan alt\ur der kan alt\obj\Debug\ur_der_kan_alt.du_skal_op.resources

@@ -44,6 +44,16 @@
             this.min = new System.Windows.Forms.Label();
             this.sec = new System.Windows.Forms.Label();
             this.cs = new System.Windows.Forms.Label();
+            this.Nedtælletime = new System.Windows.Forms.TextBox();
+            this.Nedtællesec = new System.Windows.Forms.TextBox();
+            this.Nedtællemin = new System.Windows.Forms.TextBox();
+            this.Nedtællecs = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.Nedtælle = new System.Windows.Forms.Button();
+            this.Alame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // kl
@@ -76,7 +86,7 @@
             this.temperature.AutoSize = true;
             this.temperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.temperature.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.temperature.Location = new System.Drawing.Point(340, 316);
+            this.temperature.Location = new System.Drawing.Point(564, 400);
             this.temperature.Name = "temperature";
             this.temperature.Size = new System.Drawing.Size(365, 55);
             this.temperature.TabIndex = 2;
@@ -136,10 +146,11 @@
             // 
             // start
             // 
+            this.start.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.start.BackColor = System.Drawing.Color.Black;
             this.start.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.start.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.start.Location = new System.Drawing.Point(484, 108);
+            this.start.Location = new System.Drawing.Point(453, 108);
             this.start.Name = "start";
             this.start.Size = new System.Drawing.Size(115, 64);
             this.start.TabIndex = 7;
@@ -149,10 +160,11 @@
             // 
             // stop
             // 
+            this.stop.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.stop.BackColor = System.Drawing.Color.Black;
             this.stop.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.stop.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.stop.Location = new System.Drawing.Point(605, 108);
+            this.stop.Location = new System.Drawing.Point(575, 108);
             this.stop.Name = "stop";
             this.stop.Size = new System.Drawing.Size(115, 64);
             this.stop.TabIndex = 8;
@@ -162,10 +174,11 @@
             // 
             // nåstil
             // 
+            this.nåstil.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.nåstil.BackColor = System.Drawing.Color.Black;
             this.nåstil.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nåstil.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.nåstil.Location = new System.Drawing.Point(726, 108);
+            this.nåstil.Location = new System.Drawing.Point(696, 108);
             this.nåstil.Name = "nåstil";
             this.nåstil.Size = new System.Drawing.Size(115, 64);
             this.nåstil.TabIndex = 10;
@@ -212,6 +225,118 @@
             this.cs.TabIndex = 13;
             this.cs.Text = "00";
             // 
+            // Nedtælletime
+            // 
+            this.Nedtælletime.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nedtælletime.Location = new System.Drawing.Point(484, 189);
+            this.Nedtælletime.Multiline = true;
+            this.Nedtælletime.Name = "Nedtælletime";
+            this.Nedtælletime.Size = new System.Drawing.Size(51, 43);
+            this.Nedtælletime.TabIndex = 14;
+            // 
+            // Nedtællesec
+            // 
+            this.Nedtællesec.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nedtællesec.Location = new System.Drawing.Point(726, 189);
+            this.Nedtællesec.Multiline = true;
+            this.Nedtællesec.Name = "Nedtællesec";
+            this.Nedtællesec.Size = new System.Drawing.Size(51, 43);
+            this.Nedtællesec.TabIndex = 15;
+            // 
+            // Nedtællemin
+            // 
+            this.Nedtællemin.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nedtællemin.Location = new System.Drawing.Point(605, 189);
+            this.Nedtællemin.Multiline = true;
+            this.Nedtællemin.Name = "Nedtællemin";
+            this.Nedtællemin.Size = new System.Drawing.Size(51, 43);
+            this.Nedtællemin.TabIndex = 16;
+            this.Nedtællemin.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            // 
+            // Nedtællecs
+            // 
+            this.Nedtællecs.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nedtællecs.Location = new System.Drawing.Point(833, 189);
+            this.Nedtællecs.Multiline = true;
+            this.Nedtællecs.Name = "Nedtællecs";
+            this.Nedtællecs.Size = new System.Drawing.Size(51, 43);
+            this.Nedtællecs.TabIndex = 17;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label3.Location = new System.Drawing.Point(399, 189);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(79, 31);
+            this.label3.TabIndex = 18;
+            this.label3.Text = "timer";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label6.Location = new System.Drawing.Point(544, 189);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(60, 31);
+            this.label6.TabIndex = 19;
+            this.label6.Text = "min";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label7.Location = new System.Drawing.Point(662, 189);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(60, 31);
+            this.label7.TabIndex = 20;
+            this.label7.Text = "sec";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.label8.Location = new System.Drawing.Point(783, 189);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(44, 31);
+            this.label8.TabIndex = 21;
+            this.label8.Text = "cs";
+            // 
+            // Nedtælle
+            // 
+            this.Nedtælle.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.Nedtælle.BackColor = System.Drawing.Color.Black;
+            this.Nedtælle.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Nedtælle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Nedtælle.Location = new System.Drawing.Point(817, 108);
+            this.Nedtælle.Name = "Nedtælle";
+            this.Nedtælle.Size = new System.Drawing.Size(115, 64);
+            this.Nedtælle.TabIndex = 22;
+            this.Nedtælle.Text = "Nedtælle";
+            this.Nedtælle.UseVisualStyleBackColor = false;
+            this.Nedtælle.Click += new System.EventHandler(this.Nedtælle_Click);
+            // 
+            // Alame
+            // 
+            this.Alame.BackColor = System.Drawing.Color.Black;
+            this.Alame.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Alame.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.Alame.Location = new System.Drawing.Point(12, 391);
+            this.Alame.Name = "Alame";
+            this.Alame.Size = new System.Drawing.Size(152, 64);
+            this.Alame.TabIndex = 23;
+            this.Alame.Text = "Alame";
+            this.Alame.UseVisualStyleBackColor = false;
+            this.Alame.Click += new System.EventHandler(this.Alame_Click);
+            // 
             // Form1
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -219,6 +344,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(941, 464);
+            this.Controls.Add(this.Alame);
+            this.Controls.Add(this.Nedtælle);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.Nedtællecs);
+            this.Controls.Add(this.Nedtællemin);
+            this.Controls.Add(this.Nedtællesec);
+            this.Controls.Add(this.Nedtælletime);
             this.Controls.Add(this.cs);
             this.Controls.Add(this.sec);
             this.Controls.Add(this.min);
@@ -257,6 +392,16 @@
         private System.Windows.Forms.Label min;
         private System.Windows.Forms.Label sec;
         private System.Windows.Forms.Label cs;
+        private System.Windows.Forms.TextBox Nedtælletime;
+        private System.Windows.Forms.TextBox Nedtællesec;
+        private System.Windows.Forms.TextBox Nedtællemin;
+        private System.Windows.Forms.TextBox Nedtællecs;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button Nedtælle;
+        private System.Windows.Forms.Button Alame;
     }
 }
 
