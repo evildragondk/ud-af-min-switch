@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="alarm.cs" />
     <Compile Include="du skal op.cs">
       <SubType>Form</SubType>
     </Compile>

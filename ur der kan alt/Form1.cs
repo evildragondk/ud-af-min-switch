@@ -10,8 +10,6 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-
-
 namespace ur_der_kan_alt
 {
     public partial class Form1 : Form
@@ -22,7 +20,6 @@ namespace ur_der_kan_alt
 
         Regex hoursAndMilliSecRegex = new Regex(@"([0-9]?[0-9])");
         Regex minutesAndSecondsRegex = new Regex(@"([0-5]?[0-9]|60)");
-
 
         public Form1()
         {
@@ -90,6 +87,7 @@ namespace ur_der_kan_alt
             {
                 Stop();
                 MessageBox.Show("HEY IT DONE!" , "Alame");
+                stopwatch.Reset();
             }
         }
 
@@ -139,8 +137,10 @@ namespace ur_der_kan_alt
 
         private void Nedtælle_Click(object sender, EventArgs e)
         {
-            nejdethar = !nejdethar;
-            
+            timer2.Start();
+            stopwatch.Start();
+            ts = ReadInput();
+            nejdethar = !nejdethar;            
         }
 
         private void Alame_Click(object sender, EventArgs e)
@@ -149,6 +149,11 @@ namespace ur_der_kan_alt
             this.Hide();
             openForm.ShowDialog();
             this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

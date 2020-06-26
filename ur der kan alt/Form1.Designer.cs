@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.kl = new System.Windows.Forms.Label();
             this.timer = new System.Windows.Forms.Label();
-            this.temperature = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -80,17 +79,6 @@
             this.timer.Size = new System.Drawing.Size(94, 55);
             this.timer.TabIndex = 1;
             this.timer.Text = "00:";
-            // 
-            // temperature
-            // 
-            this.temperature.AutoSize = true;
-            this.temperature.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.temperature.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.temperature.Location = new System.Drawing.Point(564, 400);
-            this.temperature.Name = "temperature";
-            this.temperature.Size = new System.Drawing.Size(365, 55);
-            this.temperature.TabIndex = 2;
-            this.temperature.Text = "temperature 00";
             // 
             // label4
             // 
@@ -143,6 +131,7 @@
             this.label2.Size = new System.Drawing.Size(272, 68);
             this.label2.TabIndex = 6;
             this.label2.Text = "001110101";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // start
             // 
@@ -233,6 +222,7 @@
             this.Nedtælletime.Name = "Nedtælletime";
             this.Nedtælletime.Size = new System.Drawing.Size(51, 43);
             this.Nedtælletime.TabIndex = 14;
+            this.Nedtælletime.Text = "0";
             // 
             // Nedtællesec
             // 
@@ -242,6 +232,7 @@
             this.Nedtællesec.Name = "Nedtællesec";
             this.Nedtællesec.Size = new System.Drawing.Size(51, 43);
             this.Nedtællesec.TabIndex = 15;
+            this.Nedtællesec.Text = "0";
             // 
             // Nedtællemin
             // 
@@ -251,6 +242,7 @@
             this.Nedtællemin.Name = "Nedtællemin";
             this.Nedtællemin.Size = new System.Drawing.Size(51, 43);
             this.Nedtællemin.TabIndex = 16;
+            this.Nedtællemin.Text = "0";
             this.Nedtællemin.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // Nedtællecs
@@ -261,6 +253,7 @@
             this.Nedtællecs.Name = "Nedtællecs";
             this.Nedtællecs.Size = new System.Drawing.Size(51, 43);
             this.Nedtællecs.TabIndex = 17;
+            this.Nedtællecs.Text = "0";
             // 
             // label3
             // 
@@ -364,7 +357,6 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.temperature);
             this.Controls.Add(this.timer);
             this.Controls.Add(this.kl);
             this.Name = "Form1";
@@ -379,7 +371,6 @@
 
         private System.Windows.Forms.Label kl;
         private System.Windows.Forms.Label timer;
-        private System.Windows.Forms.Label temperature;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Timer timer1;

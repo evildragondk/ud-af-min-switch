@@ -14,7 +14,6 @@ namespace ur_der_kan_alt
         [STAThread]
         static void Main()
         {
-            
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
